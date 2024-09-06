@@ -1,35 +1,458 @@
 /* ****************************  LAYOUT E PROGRAMAÇÃO DESENVOLVIDO POR GAIA PROGRAMAÇÃO E DESIGN */
 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --azul-princial: #000086;
+    --branco-fundo: #ffffff;
+    --cinza-principal: #5B5A5E;
+    --fonte-princiapl: "League Spartan", sans-serif;
+}
+
+
 /* TODO ================ MOBILE / 490 PX ================================ */
 /* TODO ================================================================= */
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 490px) {
+    body {
+        font-family: var(--fonte-princiapl);
+    }
+    a:any-link {
+        text-decoration: none;
+    }
+    
+    .header_mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 74px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .menu-toggle span {
+        width: 25px;
+        height: 3px;
+        background: var(--azul-princial);
+        margin: 4px 0;
+        transition: all 0.3s ease;
+        
+    }
+
+    /* Estilos para quando o menu estiver aberto */
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    /* Estilos para o menu */
+    .menu {
+        display: none;
+        position: relative;
+        top: 74px;
+        
+        left: 0;
+        background: var(--cinza-principal);
+        width: 100vw;
+        
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu a {
+        color: var(--azul-princial);
+    }
+    ul{
+        list-style: none;
+        
+    }
+
+    /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
+    .container_carrossel_mobile {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        
+    }
+    .carrossel_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .kza_title {
+        color: var(--azul-princial);
+        font-weight: 700;
+        font-size: 34px;
+        width: 80vw;
+        
+        
+    }
+    .kza_title strong {
+        color: var(--cinza-principal);
+        
+    }
+    .kza_subtitle {
+        font-size: 24px;
+        font-weight: 300;
+        padding-top: 1rem;
+        width: 60vw;
+    }
+
+    .btn_faleconosco {
+        background-color: var(--azul-princial);
+        color: var(--branco-fundo);
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        column-gap: 0.5rem;
+        font-size: 24px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+    .barra-lateral-esquerda {
+        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
+        height: 172px; /* Ajuste a altura conforme necessário */
+        width: 20px; /* Ajuste a largura conforme necessário */
+        position: absolute;
+        left: 0;
+        top: 74px;
+        z-index: -9999;
+    } 
+    .barra-cinza {
+        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        height: 60px;
+        width: 10px;
+        position: absolute;
+        top: 246px;
+        z-index: -1; /* Posiciona atrás do conteúdo */
+    }
+    /* =============================   ITENS OCULTOS ========================= */
+    .header_wide {
+        display: none;
+    }
     
 }
 
 /* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */
 /* TODO ================================================================= */
 
-@media only screen and (min-width: 491px) and (max-width: 768px){
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+    body {
+        font-family: var(--fonte-princiapl);
+    }
+    a:any-link {
+        text-decoration: none;
+    }
+    
+    .header_mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 74px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
 
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .menu-toggle span {
+        width: 25px;
+        height: 3px;
+        background: var(--azul-princial);
+        margin: 4px 0;
+        transition: all 0.3s ease;
+        
+    }
+
+    /* Estilos para quando o menu estiver aberto */
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    /* Estilos para o menu */
+    .menu {
+        display: none;
+        position: relative;
+        top: 74px;
+        
+        left: 0;
+        background: var(--cinza-principal);
+        width: 100vw;
+        
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu a {
+        color: var(--azul-princial);
+    }
+    ul{
+        list-style: none;
+        
+    }
+
+    /* =============================   ITENS OCULTOS ========================= */
+    .header_wide {
+        display: none;
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
 /* TODO ================================================================= */
 
-@media only screen and (min-width: 769px) and (max-width: 1023px){
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    body {
+        font-family: var(--fonte-princiapl);
+    }
+    a:any-link {
+        text-decoration: none;
+    }
+    
+    .header_mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 74px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
 
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .menu-toggle span {
+        width: 25px;
+        height: 3px;
+        background: var(--azul-princial);
+        margin: 4px 0;
+        transition: all 0.3s ease;
+        
+    }
+
+    /* Estilos para quando o menu estiver aberto */
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    /* Estilos para o menu */
+    .menu {
+        display: none;
+        position: relative;
+        top: 74px;
+        
+        left: 0;
+        background: var(--cinza-principal);
+        width: 100vw;
+        
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu a {
+        color: var(--azul-princial);
+    }
+    ul{
+        list-style: none;
+        
+    }
+
+    /* =============================   ITENS OCULTOS ========================= */
+    .header_wide {
+        display: none;
+    }
 }
 
 /* TODO ======== NOTEBOOK / 1024 PX  ATÉ 1200PX ============================ */
 /* TODO ================================================================= */
-@media only screen and (min-width: 1024px) and (max-width: 1200px){
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    body {
+        font-family: var(--fonte-princiapl);
+    }
+    a:any-link {
+        text-decoration: none;
+    }
     
+    .header_mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 74px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .menu-toggle span {
+        width: 25px;
+        height: 3px;
+        background: var(--azul-princial);
+        margin: 4px 0;
+        transition: all 0.3s ease;
+        
+    }
+
+    /* Estilos para quando o menu estiver aberto */
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    /* Estilos para o menu */
+    .menu {
+        display: none;
+        position: relative;
+        top: 74px;
+        
+        left: 0;
+        background: var(--cinza-principal);
+        width: 100vw;
+        
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu a {
+        color: var(--azul-princial);
+    }
+    ul{
+        list-style: none;
+        
+    }
+
+    /* =============================   ITENS OCULTOS ========================= */
+    .header_wide {
+        display: none;
+    }
 }
 
 
 /* TODO ======== DESKTOP / MIN 1201PX  ============================ */
 /* TODO ================================================================= */
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1201px) {
+    body{
+        font-family: var(--fonte-princiapl);
+    }
+    a:any-link{
+        text-decoration: none;
+    }
+    .header_wide {
+        display: flex;
+        width: 100vw;
+        height: 50px;
+        align-items: center;
+        font-size: 16px;
+        background-color: #cccccc;
+        
+        
 
+    }
+    .header_contato {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        max-width: 100vw;
+        column-gap: 0.5rem;
+    }
+    .header_contato_contato {
+        color: var(--azul-princial);
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .header_contato a{
+        display: flex;
+        align-items: center;
+        column-gap: 0.5rem;
+        color: var(--azul-princial);
+        
+    }
+    .link_zap_1 {
+        border-right: 1px solid var(--azul-princial);
+        padding-right: 1rem;
+    }
+    .link_insta {
+        padding-left: 2rem;
+    }
+    
+
+    /* =============================   ITENS OCULTOS ========================= */
+    .header_mobile {
+        display: none;
+    }
 }
