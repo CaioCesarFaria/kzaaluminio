@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- META TAG OG -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Kza Alumínio " />
@@ -65,6 +69,15 @@
                 </a>
             </div>
         </section>
+        <!-- menu apenas na versão desktop, pois no mobile é hamburguer -->
+        <section class="menu_wide">
+            <div class="boxmenu">
+                <a href="#">Inicio</a>
+                <a href="#">Vidros</a>
+                <a href="#">Esquadrias</a>
+                <a href="#">Portfólio</a>
+            </div>
+        </section>
     </header>
 
 
@@ -79,6 +92,15 @@
                     <img src="./assets/icons/icon_whatsapp_btn.svg">
                     Fale Conosco
                 </a>
+            </div>
+
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="./assets/carrossel/slide_1.svg">
+                    <img class="swiper-slide" src="./assets/carrossel/slide_2.svg">
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
     </main>

@@ -152,8 +152,17 @@
         top: 246px;
         z-index: -1; /* Posiciona atrás do conteúdo */
     }
+
+
+    .swiper {
+        margin-top: 2rem;
+        width: 90vw;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
+        display: none;
+    }
+    .menu_wide {
         display: none;
     }
     
@@ -233,9 +242,74 @@
         list-style: none;
         
     }
+    /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
+    .container_carrossel_mobile {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        
+    }
+    .carrossel_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .kza_title {
+        color: var(--azul-princial);
+        font-weight: 700;
+        font-size: 36px;
+        width: 80vw;
+        
+        
+    }
+    .kza_title strong {
+        color: var(--cinza-principal);
+        
+    }
+    .kza_subtitle {
+        font-size: 26px;
+        font-weight: 300;
+        padding-top: 1rem;
+        width: 60vw;
+    }
 
+    .btn_faleconosco {
+        background-color: var(--azul-princial);
+        color: var(--branco-fundo);
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        column-gap: 0.5rem;
+        font-size: 24px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+    .barra-lateral-esquerda {
+        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
+        height: 172px; /* Ajuste a altura conforme necessário */
+        width: 20px; /* Ajuste a largura conforme necessário */
+        position: absolute;
+        left: 0;
+        top: 74px;
+        z-index: -9999;
+    } 
+    .barra-cinza {
+        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        height: 60px;
+        width: 10px;
+        position: absolute;
+        top: 246px;
+        z-index: -1; /* Posiciona atrás do conteúdo */
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
+        display: none;
+    }
+    .menu_wide {
         display: none;
     }
 }
@@ -314,9 +388,81 @@
         list-style: none;
         
     }
+    /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
+    .container_carrossel_mobile {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        
+    }
+    .carrossel_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .kza_title {
+        color: var(--azul-princial);
+        font-weight: 700;
+        font-size: 36px;
+        width: 50vw;
+        
+        
+    }
+    .kza_title strong {
+        color: var(--cinza-principal);
+        
+    }
+    .kza_subtitle {
+        font-size: 26px;
+        font-weight: 300;
+        padding-top: 1rem;
+        width: 60vw;
+    }
+
+    .btn_faleconosco {
+        background-color: var(--azul-princial);
+        color: var(--branco-fundo);
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        column-gap: 0.5rem;
+        font-size: 24px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+    .barra-lateral-esquerda {
+        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
+        height: 172px; /* Ajuste a altura conforme necessário */
+        width: 20px; /* Ajuste a largura conforme necessário */
+        position: absolute;
+        left: 0;
+        top: 74px;
+        z-index: -9999;
+    } 
+    .barra-cinza {
+        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        height: 60px;
+        width: 10px;
+        position: absolute;
+        top: 246px;
+        z-index: -1; /* Posiciona atrás do conteúdo */
+    }
+
+
+    .swiper {
+        margin-top: 3rem;
+        width: 80vw;
+    }
 
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
+        display: none;
+    }
+    .menu_wide {
         display: none;
     }
 }
@@ -395,8 +541,81 @@
         
     }
 
+
+    /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
+    .container_carrossel_mobile {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        
+    }
+    .carrossel_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .kza_title {
+        color: var(--azul-princial);
+        font-weight: 700;
+        font-size: 42px;
+        width: 50vw;
+        
+        
+    }
+    .kza_title strong {
+        color: var(--cinza-principal);
+        
+    }
+    .kza_subtitle {
+        font-size: 32px;
+        font-weight: 300;
+        padding-top: 1rem;
+        width: 60vw;
+    }
+
+    .btn_faleconosco {
+        background-color: var(--azul-princial);
+        color: var(--branco-fundo);
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        column-gap: 0.5rem;
+        font-size: 24px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+    .barra-lateral-esquerda {
+        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
+        height: 172px; /* Ajuste a altura conforme necessário */
+        width: 20px; /* Ajuste a largura conforme necessário */
+        position: absolute;
+        left: 0;
+        top: 74px;
+        z-index: -9999;
+    } 
+    .barra-cinza {
+        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        height: 60px;
+        width: 10px;
+        position: absolute;
+        top: 246px;
+        z-index: -1; /* Posiciona atrás do conteúdo */
+    }
+
+
+    .swiper {
+        margin-top: 3rem;
+        width: 70vw;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
+        display: none;
+    }
+    .menu_wide {
         display: none;
     }
 }
@@ -449,6 +668,80 @@
     .link_insta {
         padding-left: 2rem;
     }
+
+    .menu_wide {
+        display: flex;
+        width: 100vw;
+        margin-left: 2rem;
+    }
+    .boxmenu {
+        display: flex;
+        width: 100vw;
+        padding: 2rem 6rem 1rem 3rem;
+        justify-content: flex-start;
+        column-gap: 5rem;
+    }
+    .boxmenu a{
+        font-size: 24px;
+        color: var(--cinza-principal);
+        font-weight: 400;
+    }
+    .container_carrossel_mobile {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        column-gap: 5rem;
+    }
+    .swiper {
+        width: 60vw;
+        
+    }
+    .carrossel_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        text-align: center;
+        width: 40vw;
+    }
+    .kza_title {
+        color: var(--azul-princial);
+        font-weight: 700;
+        font-size: 38px;
+        width: 40vw;
+        text-align: left;
+        padding-right: 2rem;
+        
+        
+    }
+    .kza_title strong {
+        color: var(--cinza-principal);
+        
+    }
+    .kza_subtitle {
+        font-size: 26px;
+        font-weight: 300;
+        padding-top: 1rem;
+        width: 40vw;
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+    .btn_faleconosco {
+        background-color: var(--azul-princial);
+        color: var(--branco-fundo);
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        column-gap: 0.5rem;
+        font-size: 24px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        justify-content: center;
+        width: 20vw;
+    }
+        
     
 
     /* =============================   ITENS OCULTOS ========================= */
