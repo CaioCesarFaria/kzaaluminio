@@ -20,6 +20,7 @@
 @media screen and (max-width: 490px) {
     body {
         font-family: var(--fonte-princiapl);
+        overflow-x: hidden;
     }
     a:any-link {
         text-decoration: none;
@@ -158,6 +159,96 @@
         margin-top: 2rem;
         width: 90vw;
     }
+    .divisoria_azul {
+        width: 100vw;
+        height: 76px;
+        background-color: var(--azul-princial);
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+
+    }
+    .faixa_cinza {
+        width: 10px;
+        height: 128px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        margin-left: 1.5rem;
+    }
+
+    /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
+    .container_servicos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container_servicos_tipos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .tipos_lista {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--azul-princial);
+        list-style: var(--azul-princial);
+        list-style-type: disc;
+        align-items: center;
+        padding-top: 2.5rem;
+        row-gap: 0.5rem;
+        
+    }
+    .servicos_imagem {
+        width: 90vw;
+        margin-top: -20px;
+        z-index: -999;
+    }
+    .servicos_exemplos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        row-gap: 1rem;
+    }
+    .servicos_exemplos img {
+        max-width: 100vw;
+    }
+    .exemplo_barra {
+        width: 10px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        height: 100px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 2rem;
+        z-index: 9999;
+    }
+    .servicos_vantagens {
+        background-color: var(--azul-princial);
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+
+    }
+    .vantagem_1 {
+        display: flex;
+        color: var(--branco-fundo);
+        column-gap: 1rem;
+        padding: 0.5rem 0;
+        align-items: center;
+        font-size: 22px;
+        font-weight: 500;
+        
+    }
+    
+    .servicos_vantagens img {
+        width: 24px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -174,6 +265,7 @@
 @media only screen and (min-width: 491px) and (max-width: 768px) {
     body {
         font-family: var(--fonte-princiapl);
+        overflow-x:hidden;
     }
     a:any-link {
         text-decoration: none;
@@ -304,6 +396,101 @@
         position: absolute;
         top: 246px;
         z-index: -1; /* Posiciona atrás do conteúdo */
+    }
+    .swiper {
+        margin-top: 2rem;
+        width: 90vw;
+    }
+
+    .divisoria_azul {
+        width: 100vw;
+        height: 86px;
+        background-color: var(--azul-princial);
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+
+    }
+    .faixa_cinza {
+        width: 18px;
+        height: 158px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        margin-left: 1.5rem;
+    }
+    
+    /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
+    .container_servicos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container_servicos_tipos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .tipos_lista {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--azul-princial);
+        list-style: var(--azul-princial);
+        list-style-type: disc;
+        align-items: center;
+        padding-top: 2.5rem;
+        row-gap: 0.5rem;
+        
+    }
+    .servicos_imagem {
+        width: 90vw;
+        margin-top: -20px;
+        z-index: -999;
+    }
+    .servicos_exemplos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        row-gap: 1rem;
+    }
+    .servicos_exemplos img {
+        max-width: 100vw;
+    }
+    .exemplo_barra {
+        width: 10px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        height: 100px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 2rem;
+        z-index: 9999;
+    }
+    .servicos_vantagens {
+        background-color: var(--azul-princial);
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        row-gap: 1rem;
+
+
+    }
+    .vantagem_1 {
+        display: flex;
+        color: var(--branco-fundo);
+        column-gap: 1rem;
+        padding: 0.5rem 0;
+        align-items: center;
+        font-size: 22px;
+        font-weight: 500;
+        justify-content: center;
+    }
+    .servicos_vantagens img {
+        width: 26px;
     }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
@@ -457,6 +644,95 @@
         margin-top: 3rem;
         width: 80vw;
     }
+    .divisoria_azul {
+        width: 100vw;
+        height: 96px;
+        background-color: var(--azul-princial);
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+
+    }
+    .faixa_cinza {
+        width: 18px;
+        height: 138px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        margin-left: 4rem;
+    }
+    /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
+    .container_servicos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container_servicos_tipos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .tipos_lista {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--azul-princial);
+        list-style: var(--azul-princial);
+        list-style-type: disc;
+        align-items: center;
+        padding-top: 2.5rem;
+        row-gap: 0.5rem;
+        
+    }
+    .servicos_imagem {
+        width: 90vw;
+        margin-top: -20px;
+        z-index: -999;
+    }
+    .servicos_exemplos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        row-gap: 1rem;
+    }
+    .servicos_exemplos img {
+        max-width: 100vw;
+    }
+    .exemplo_barra {
+        width: 10px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        height: 100px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 2rem;
+        z-index: 9999;
+    }
+    .servicos_vantagens {
+        background-color: var(--azul-princial);
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        row-gap: 1rem;
+
+
+    }
+    .vantagem_1 {
+        display: flex;
+        color: var(--branco-fundo);
+        column-gap: 1rem;
+        padding: 0.5rem 0;
+        align-items: center;
+        font-size: 22px;
+        font-weight: 500;
+        justify-content: center;
+    }
+    .servicos_vantagens img {
+        width: 26px;
+    }
 
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
@@ -472,6 +748,7 @@
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     body {
         font-family: var(--fonte-princiapl);
+        overflow-x: hidden;
     }
     a:any-link {
         text-decoration: none;
@@ -611,6 +888,96 @@
         margin-top: 3rem;
         width: 70vw;
     }
+
+    .divisoria_azul {
+        width: 100vw;
+        height: 86px;
+        background-color: var(--azul-princial);
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+
+    }
+    .faixa_cinza {
+        width: 18px;
+        height: 168px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        margin-left: 3rem;
+    }
+    /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
+    .container_servicos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container_servicos_tipos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .tipos_lista {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-size: 36px;
+        font-weight: 500;
+        color: var(--azul-princial);
+        list-style: var(--azul-princial);
+        list-style-type: disc;
+        align-items: center;
+        padding-top: 2.5rem;
+        row-gap: 1.5rem;
+        
+    }
+    .servicos_imagem {
+        width: 90vw;
+        margin-top: -50px;
+        z-index: -999;
+    }
+    .servicos_exemplos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        row-gap: 1rem;
+    }
+    .servicos_exemplos img {
+        max-width: 100vw;
+    }
+    .exemplo_barra {
+        width: 10px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        height: 100px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 2rem;
+        z-index: 9999;
+    }
+    .servicos_vantagens {
+        background-color: var(--azul-princial);
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        row-gap: 1rem;
+
+
+    }
+    .vantagem_1 {
+        display: flex;
+        color: var(--branco-fundo);
+        column-gap: 1rem;
+        padding: 0.5rem 0;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 500;
+        justify-content: center;
+    }
+    .servicos_vantagens img {
+        width: 35px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -624,8 +991,10 @@
 /* TODO ======== DESKTOP / MIN 1201PX  ============================ */
 /* TODO ================================================================= */
 @media screen and (min-width: 1201px) {
+    
     body{
         font-family: var(--fonte-princiapl);
+        overflow-x: hidden;
     }
     a:any-link{
         text-decoration: none;
@@ -691,10 +1060,10 @@
         flex-direction: row-reverse;
         margin-left: 3rem;
         margin-top: 2rem;
-        column-gap: 5rem;
+        column-gap: 3rem;
     }
     .swiper {
-        width: 60vw;
+        width: 55vw;
         
     }
     .carrossel_texto {
@@ -702,7 +1071,7 @@
         flex-direction: column;
         align-items: left;
         text-align: center;
-        width: 40vw;
+        width: 45vw;
     }
     .kza_title {
         color: var(--azul-princial);
@@ -741,9 +1110,104 @@
         justify-content: center;
         width: 20vw;
     }
-        
-    
+    .divisoria_azul {
+        width: 100vw;
+        height: 96px;
+        background-color: var(--azul-princial);
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
 
+    }
+    .faixa_cinza {
+        width: 18px;
+        height: 178px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        margin-left: 3rem;
+    }
+    
+    /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
+    .container_servicos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container_servicos_tipos {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+    }
+    .tipos_lista {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        font-size: 38px;
+        font-weight: 500;
+        color: var(--azul-princial);
+        list-style: var(--azul-princial);
+        list-style-type: disc;
+        align-items: center;
+        padding-top: 2.5rem;
+        margin-left: 3rem;
+        row-gap: 0.5rem;
+        
+        
+        
+    }
+    .servicos_imagem {
+        width: 60vw;
+        
+        
+    }
+    .servicos_exemplos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        row-gap: 1rem;
+    }
+    .servicos_exemplos img {
+        width: 50vw;
+        
+    }
+    .exemplo_barra {
+        width: 30px;
+        background-image: linear-gradient(to right, #B9A163, #906D33);
+        height: 100px;
+        margin-left: -10px;
+        margin-right: -10px;
+        
+        
+        z-index: 9999;
+    }
+    .servicos_vantagens {
+        background-color: var(--azul-princial);
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        row-gap: 1rem;
+
+
+    }
+    .vantagem_1 {
+        display: flex;
+        flex-direction: column;
+        color: var(--branco-fundo);
+        row-gap: 2rem;
+        padding: 0.5rem 0;
+        align-items: center;
+        font-size: 34px;
+        font-weight: 500;
+        justify-content: center;
+        width: 22vw;
+        text-align: center;
+    }
+    .servicos_vantagens img {
+        width: 100px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_mobile {
         display: none;
