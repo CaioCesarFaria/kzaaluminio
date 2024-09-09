@@ -249,6 +249,63 @@
     .servicos_vantagens img {
         width: 24px;
     }
+
+    /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
+
+    .container_empresa {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .empresa_diferencial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .diferencial_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .diferencial_title {
+        font-size: 34px;
+        font-weight: 500;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        width: 80vw;
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .diferencial_title strong {
+        color: var(--cinza-principal);
+    }
+    .diferencial_txt {
+        font-size: 24px;
+        color: var(--cinza-principal);
+        
+    }
+    .empresa_diferencial img {
+        width: 90vw;
+    }
+    .barra_instagram {
+        background-color: var(--azul-princial);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        column-gap: 2rem;
+    }
+    .barra_instagram p {
+        font-size: 21px;
+        font-weight: 400;
+        color: var(--branco-fundo);
+
+    }
+    .barra_instagram img {
+        width: 50px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -492,6 +549,64 @@
     .servicos_vantagens img {
         width: 26px;
     }
+
+    /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
+
+    .container_empresa {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .empresa_diferencial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .diferencial_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .diferencial_title {
+        font-size: 36px;
+        font-weight: 500;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        width: 50vw;
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .diferencial_title strong {
+        color: var(--cinza-principal);
+    }
+    .diferencial_txt {
+        font-size: 26px;
+        color: var(--cinza-principal);
+        
+    }
+    .empresa_diferencial img {
+        width: 90vw;
+    }
+    .barra_instagram {
+        background-color: var(--azul-princial);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        column-gap: 2rem;
+        cursor: grab;
+    }
+    .barra_instagram p {
+        font-size: 21px;
+        font-weight: 400;
+        color: var(--branco-fundo);
+
+    }
+    .barra_instagram img {
+        width: 50px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -733,7 +848,63 @@
     .servicos_vantagens img {
         width: 26px;
     }
+    /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
 
+    .container_empresa {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .empresa_diferencial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .diferencial_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .diferencial_title {
+        font-size: 36px;
+        font-weight: 500;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        width: 50vw;
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .diferencial_title strong {
+        color: var(--cinza-principal);
+    }
+    .diferencial_txt {
+        font-size: 26px;
+        color: var(--cinza-principal);
+        
+    }
+    .empresa_diferencial img {
+        width: 90vw;
+    }
+    .barra_instagram {
+        background-color: var(--azul-princial);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        column-gap: 2rem;
+        cursor: grab;
+    }
+    .barra_instagram p {
+        font-size: 21px;
+        font-weight: 400;
+        color: var(--branco-fundo);
+
+    }
+    .barra_instagram img {
+        width: 50px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -978,6 +1149,63 @@
     .servicos_vantagens img {
         width: 35px;
     }
+    /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
+
+    .container_empresa {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .empresa_diferencial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .diferencial_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .diferencial_title {
+        font-size: 38px;
+        font-weight: 500;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        width: 40vw;
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .diferencial_title strong {
+        color: var(--cinza-principal);
+    }
+    .diferencial_txt {
+        font-size: 28px;
+        color: var(--cinza-principal);
+        
+    }
+    .empresa_diferencial img {
+        width: 90vw;
+    }
+    .barra_instagram {
+        background-color: var(--azul-princial);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        column-gap: 2rem;
+        cursor: grab;
+    }
+    .barra_instagram p {
+        font-size: 21px;
+        font-weight: 400;
+        color: var(--branco-fundo);
+
+    }
+    .barra_instagram img {
+        width: 50px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -1206,6 +1434,67 @@
         text-align: center;
     }
     .servicos_vantagens img {
+        width: 100px;
+    }
+    /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
+
+    .container_empresa {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .empresa_diferencial {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .diferencial_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        row-gap: 1rem;
+        width: 50vw;
+        padding-left: 6rem;
+        
+        
+    }
+    .diferencial_title {
+        font-size: 46px;
+        font-weight: 500;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        width: 40vw;
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .diferencial_title strong {
+        color: var(--cinza-principal);
+    }
+    .diferencial_txt {
+        font-size: 32px;
+        color: var(--cinza-principal);
+        margin-bottom: 10rem;
+    }
+    .empresa_diferencial img {
+        width: 50vw;
+    }
+    .barra_instagram {
+        background-color: var(--azul-princial);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        column-gap: 2rem;
+        cursor: grab;
+    }
+    .barra_instagram p {
+        font-size: 32px;
+        font-weight: 400;
+        color: var(--branco-fundo);
+
+    }
+    .barra_instagram img {
         width: 100px;
     }
     /* =============================   ITENS OCULTOS ========================= */
