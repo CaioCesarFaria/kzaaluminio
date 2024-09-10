@@ -363,6 +363,109 @@
         font-size: 24px;
         color: var(--branco-fundo);
     }
+
+    /* ============================ CONTAINER TRANSFORME SUA KZA */
+
+    .container_transforme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .transforme_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .transforme_txt img {
+        width: 70vw;
+        padding-bottom: 2rem;
+    }
+    .transforme_title {
+        font-size: 36px;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        text-align: center;
+        width: 70vw;
+        padding-bottom: 2rem;
+
+    }
+    .transforme_title strong {
+        color: var(--cinza-principal);
+        font-weight: bold;
+    }
+    .transforme_fotos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+    .transforme_fotos img {
+        width: 90vw;
+    }
+
+    /* =============================== FOOTER ========================= */
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .footer_txt {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 1rem;
+    }
+    .zap_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+        text-align: center;
+        row-gap: 1rem;
+        color: var(--azul-princial);
+        font-size: 18px;
+    }
+    .zap_footer img {
+        width: 25px;
+    }
+    .footer_endereco {
+        font-size: 18px;
+        color: var(--cinza-principal);
+        text-align: center;
+        width: 80vw;
+        padding-bottom: 2rem;
+    }
+    .footer_mapa {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+    }
+    .iframe {
+        width: 80vw;
+        
+    }
+    .copyright {
+        background-color: var(--azul-princial);
+        height: 52px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zap_gaia {
+        color: var(--branco-fundo);
+        font-size: 12px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -719,6 +822,109 @@
         font-size: 28px;
         color: var(--branco-fundo);
     }
+
+    /* ============================ CONTAINER TRANSFORME SUA KZA */
+
+    .container_transforme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .transforme_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .transforme_txt img {
+        width: 70vw;
+        padding-bottom: 2rem;
+    }
+    .transforme_title {
+        font-size: 36px;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        text-align: center;
+        width: 70vw;
+        padding-bottom: 2rem;
+
+    }
+    .transforme_title strong {
+        color: var(--cinza-principal);
+        font-weight: bold;
+    }
+    .transforme_fotos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+    .transforme_fotos img {
+        width: 80vw;
+    }
+    /* =============================== FOOTER ========================= */
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .footer_txt {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 1rem;
+    }
+    .zap_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+        text-align: center;
+        row-gap: 1rem;
+        color: var(--azul-princial);
+        font-size: 18px;
+    }
+    .zap_footer img {
+        width: 25px;
+    }
+    .footer_endereco {
+        font-size: 18px;
+        color: var(--cinza-principal);
+        text-align: center;
+        width: 60vw;
+        padding-bottom: 2rem;
+    }
+    .footer_mapa {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+    }
+    .iframe {
+        width: 60vw;
+        
+    }
+    .copyright {
+        background-color: var(--azul-princial);
+        height: 52px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zap_gaia {
+        color: var(--branco-fundo);
+        font-size: 12px;
+    }
+
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -1072,6 +1278,109 @@
         font-size: 30px;
         color: var(--branco-fundo);
     }
+
+    /* ============================ CONTAINER TRANSFORME SUA KZA */
+
+    .container_transforme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .transforme_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .transforme_txt img {
+        width: 40vw;
+        padding-bottom: 2rem;
+    }
+    .transforme_title {
+        font-size: 36px;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        text-align: center;
+        width: 40vw;
+        padding-bottom: 2rem;
+
+    }
+    .transforme_title strong {
+        color: var(--cinza-principal);
+        font-weight: bold;
+    }
+    .transforme_fotos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+    .transforme_fotos img {
+        width: 80vw;
+    }
+    /* =============================== FOOTER ========================= */
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .footer_txt {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 1rem;
+    }
+    .zap_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+        text-align: center;
+        row-gap: 1rem;
+        color: var(--azul-princial);
+        font-size: 18px;
+    }
+    .zap_footer img {
+        width: 25px;
+    }
+    .footer_endereco {
+        font-size: 18px;
+        color: var(--cinza-principal);
+        text-align: center;
+        width: 50vw;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .footer_mapa {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+    }
+    .footer_mapa iframe {
+        width: 60vw;
+        
+    }
+    .copyright {
+        background-color: var(--azul-princial);
+        height: 52px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zap_gaia {
+        color: var(--branco-fundo);
+        font-size: 12px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -1412,6 +1721,108 @@
         font-size: 32px;
         color: var(--branco-fundo);
     }
+    /* ============================ CONTAINER TRANSFORME SUA KZA */
+
+    .container_transforme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .transforme_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .transforme_txt img {
+        width: 30vw;
+        padding-bottom: 2rem;
+    }
+    .transforme_title {
+        font-size: 36px;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        text-align: center;
+        width: 40vw;
+        padding-bottom: 2rem;
+
+    }
+    .transforme_title strong {
+        color: var(--cinza-principal);
+        font-weight: bold;
+    }
+    .transforme_fotos {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .transforme_fotos img {
+        width: 45vw;
+    }
+    /* =============================== FOOTER ========================= */
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .footer_txt {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 1rem;
+    }
+    .zap_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+        text-align: center;
+        row-gap: 1rem;
+        color: var(--azul-princial);
+        font-size: 24px;
+    }
+    .zap_footer img {
+        width: 35px;
+    }
+    .footer_endereco {
+        font-size: 20px;
+        color: var(--cinza-principal);
+        text-align: center;
+        width: 50vw;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .footer_mapa {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+    }
+    .footer_mapa iframe {
+        width: 60vw;
+        
+    }
+    .copyright {
+        background-color: var(--azul-princial);
+        height: 52px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zap_gaia {
+        color: var(--branco-fundo);
+        font-size: 14px;
+    }
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
@@ -1745,6 +2156,112 @@
     .orc_txt{
         font-size: 30px;
         color: var(--branco-fundo);
+    }
+    /* ============================ CONTAINER TRANSFORME SUA KZA */
+
+    .container_transforme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .transforme_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .transforme_txt img {
+        width: 30vw;
+        padding-bottom: 2rem;
+    }
+    .transforme_title {
+        font-size: 36px;
+        font-family: var(--fonte-princiapl);
+        color: var(--azul-princial);
+        text-align: center;
+        width: 40vw;
+        padding-bottom: 2rem;
+
+    }
+    .transforme_title strong {
+        color: var(--cinza-principal);
+        font-weight: bold;
+    }
+    .transforme_fotos {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .transforme_fotos img {
+        width: 45vw;
+    }
+    /* =============================== FOOTER ========================= */
+    .container_footer {
+        display: flex;
+        
+        width: 100vw;
+        align-items: center;
+        padding-top: 4rem;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+    }
+    .footer_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3rem;
+        row-gap: 1rem;
+        
+        
+    }
+    .zap_footer {
+        display: flex;
+        
+        align-items: center;
+        width: 40vw;
+        
+        column-gap:  1rem;
+        color: var(--azul-princial);
+        font-size: 24px;
+    }
+    .zap_footer img {
+        width: 40px;
+    }
+    .footer_endereco {
+        font-size: 22px;
+        color: var(--cinza-principal);
+        text-align: left;
+        
+        padding-bottom: 2rem;
+    }
+    .footer_mapa {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .footer_mapa iframe {
+        width: 50vw;
+        height: 300px;
+        
+    }
+    .copyright {
+        background-color: var(--azul-princial);
+        height: 52px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zap_gaia {
+        color: var(--branco-fundo);
+        font-size: 16px;
     }
     /* =============================   ITENS OCULTOS ========================= */
     .header_mobile {
