@@ -22,10 +22,11 @@
         font-family: var(--fonte-princiapl);
         overflow-x: hidden;
     }
+
     a:any-link {
         text-decoration: none;
     }
-    
+
     .header_mobile {
         display: flex;
         justify-content: space-between;
@@ -50,7 +51,7 @@
         background: var(--azul-princial);
         margin: 4px 0;
         transition: all 0.3s ease;
-        
+
     }
 
     /* Estilos para quando o menu estiver aberto */
@@ -71,7 +72,7 @@
         display: none;
         position: fixed;
         top: 74px;
-        
+
         left: 0;
         background-image: linear-gradient(to bottom, #FFFFFF 51%, #DEDEDE 80%);
 
@@ -82,6 +83,7 @@
     .menu.active {
         display: block;
     }
+
     .menu ul {
         display: flex;
         flex-direction: column;
@@ -90,22 +92,24 @@
         row-gap: 1rem;
         padding-bottom: 1rem;
     }
+
     .menu li {
         border-bottom: 1px solid var(--azul-princial);
         width: 40vw;
         text-align: center;
         padding-bottom: 0.5rem;
     }
-    
+
     .menu a {
         color: var(--azul-princial);
     }
-    ul{
+
+    ul {
         list-style: none;
-        
+
     }
 
-    
+
 
     /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
     .container_carrossel_mobile {
@@ -113,26 +117,30 @@
         display: flex;
         flex-direction: column;
         padding-top: 3rem;
-        
+
     }
+
     .carrossel_texto {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     .kza_title {
         color: var(--azul-princial);
         font-weight: 700;
         font-size: 34px;
         width: 80vw;
-        
-        
+
+
     }
+
     .kza_title strong {
         color: var(--cinza-principal);
-        
+
     }
+
     .kza_subtitle {
         font-size: 24px;
         font-weight: 300;
@@ -153,22 +161,29 @@
         text-transform: uppercase;
         justify-content: center;
     }
+
     .barra-lateral-esquerda {
-        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
-        height: 172px; /* Ajuste a altura conforme necessário */
-        width: 20px; /* Ajuste a largura conforme necessário */
+        background-color: var(--azul-princial);
+        /* Substitua pela sua cor azul */
+        height: 172px;
+        /* Ajuste a altura conforme necessário */
+        width: 20px;
+        /* Ajuste a largura conforme necessário */
         position: absolute;
         left: 0;
         top: 74px;
         z-index: -9999;
-    } 
+    }
+
     .barra-cinza {
-        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        background-color: var(--cinza-principal);
+        /* Substitua pela sua cor cinza */
         height: 60px;
         width: 10px;
         position: absolute;
         top: 246px;
-        z-index: -1; /* Posiciona atrás do conteúdo */
+        z-index: -1;
+        /* Posiciona atrás do conteúdo */
     }
 
 
@@ -176,6 +191,7 @@
         margin-top: 2rem;
         width: 90vw;
     }
+
     .divisoria_azul {
         width: 100vw;
         height: 76px;
@@ -185,6 +201,7 @@
         align-items: center;
 
     }
+
     .faixa_cinza {
         width: 10px;
         height: 128px;
@@ -198,12 +215,14 @@
         flex-direction: column;
         width: 100vw;
     }
+
     .container_servicos_tipos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
     }
+
     .tipos_lista {
         display: flex;
         flex-direction: column;
@@ -216,22 +235,26 @@
         align-items: center;
         padding-top: 2.5rem;
         row-gap: 0.5rem;
-        
+
     }
+
     .servicos_imagem {
         width: 90vw;
         margin-top: -20px;
         z-index: -999;
     }
+
     .servicos_exemplos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         row-gap: 1rem;
     }
+
     .servicos_exemplos img {
         max-width: 100vw;
     }
+
     .exemplo_barra {
         width: 10px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
@@ -241,6 +264,7 @@
         margin-left: 2rem;
         z-index: 9999;
     }
+
     .servicos_vantagens {
         background-color: var(--azul-princial);
         display: flex;
@@ -252,6 +276,7 @@
 
 
     }
+
     .vantagem_1 {
         display: flex;
         color: var(--branco-fundo);
@@ -260,9 +285,9 @@
         align-items: center;
         font-size: 22px;
         font-weight: 500;
-        
+
     }
-    
+
     .servicos_vantagens img {
         width: 24px;
     }
@@ -274,18 +299,21 @@
         flex-direction: column;
         width: 100vw;
     }
+
     .empresa_diferencial {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .diferencial_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
     }
+
     .diferencial_title {
         font-size: 34px;
         font-weight: 500;
@@ -295,17 +323,21 @@
         margin-top: 3rem;
         padding-bottom: 1rem;
     }
+
     .diferencial_title strong {
         color: var(--cinza-principal);
     }
+
     .diferencial_txt {
         font-size: 24px;
         color: var(--cinza-principal);
-        
+
     }
+
     .empresa_diferencial img {
         width: 90vw;
     }
+
     .barra_instagram {
         background-color: var(--azul-princial);
         display: flex;
@@ -314,12 +346,14 @@
         height: 33px;
         column-gap: 2rem;
     }
+
     .barra_instagram p {
         font-size: 21px;
         font-weight: 400;
         color: var(--branco-fundo);
 
     }
+
     .barra_instagram img {
         width: 50px;
     }
@@ -332,19 +366,22 @@
         width: 100vw;
         align-items: center;
     }
+
     .orcamento_fotos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         row-gap: 1.5rem;
         padding-top: 1.5rem;
 
     }
+
     .orcamento_fotos img {
         width: 90vw;
     }
+
     .box_btnorcamento {
         background-color: var(--azul-princial);
         width: 70vw;
@@ -356,10 +393,12 @@
         column-gap: 1rem;
         margin-top: 2rem;
     }
+
     .orc_icon {
         width: 30px;
     }
-    .orc_txt{
+
+    .orc_txt {
         font-size: 24px;
         color: var(--branco-fundo);
     }
@@ -373,16 +412,19 @@
         justify-content: center;
         margin-top: 5rem;
     }
+
     .transforme_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .transforme_txt img {
         width: 70vw;
         padding-bottom: 2rem;
     }
+
     .transforme_title {
         font-size: 36px;
         font-family: var(--fonte-princiapl);
@@ -392,10 +434,12 @@
         padding-bottom: 2rem;
 
     }
+
     .transforme_title strong {
         color: var(--cinza-principal);
         font-weight: bold;
     }
+
     .transforme_fotos {
         display: flex;
         flex-direction: column;
@@ -403,6 +447,7 @@
         align-items: center;
         row-gap: 1.5rem;
     }
+
     .transforme_fotos img {
         width: 90vw;
     }
@@ -415,6 +460,7 @@
         align-items: center;
         padding-top: 2rem;
     }
+
     .footer_txt {
         display: flex;
         flex-wrap: wrap;
@@ -422,6 +468,7 @@
         justify-content: space-evenly;
         row-gap: 1rem;
     }
+
     .zap_footer {
         display: flex;
         flex-direction: column;
@@ -432,9 +479,11 @@
         color: var(--azul-princial);
         font-size: 18px;
     }
+
     .zap_footer img {
         width: 25px;
     }
+
     .footer_endereco {
         font-size: 18px;
         color: var(--cinza-principal);
@@ -442,6 +491,7 @@
         width: 80vw;
         padding-bottom: 2rem;
     }
+
     .footer_mapa {
         display: flex;
         width: 100vw;
@@ -450,10 +500,12 @@
         margin-bottom: 2rem;
 
     }
+
     .iframe {
         width: 80vw;
-        
+
     }
+
     .copyright {
         background-color: var(--azul-princial);
         height: 52px;
@@ -462,18 +514,66 @@
         align-items: center;
         justify-content: center;
     }
+
     .zap_gaia {
         color: var(--branco-fundo);
         font-size: 12px;
     }
+
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
     }
+
     .menu_wide {
         display: none;
     }
-    
+
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+    /* ? ==========                    PÁGINA DE VIDROS                              ========= */
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+
+    .vidros_container_aprensentacao {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .vidro_apresentacao_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .vidro_apresentacao_title p {
+        font-size: 24px;
+        color: var(--azul-princial);
+        text-align: center;
+        width: 80vw;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 1.2;
+    }
+    .vidro_apresentacao_title strong {
+        color: var(--cinza-principal);
+        font-weight: 400;
+    }
+    .apresentacao_fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .apresentacao_fotos img {
+        width: 100vw;
+    }
+
 }
 
 /* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */
@@ -482,12 +582,13 @@
 @media only screen and (min-width: 491px) and (max-width: 768px) {
     body {
         font-family: var(--fonte-princiapl);
-        overflow-x:hidden;
+        overflow-x: hidden;
     }
+
     a:any-link {
         text-decoration: none;
     }
-    
+
     .header_mobile {
         display: flex;
         justify-content: space-between;
@@ -512,7 +613,7 @@
         background: var(--azul-princial);
         margin: 4px 0;
         transition: all 0.3s ease;
-        
+
     }
 
     /* Estilos para quando o menu estiver aberto */
@@ -533,7 +634,7 @@
         display: none;
         position: fixed;
         top: 74px;
-        
+
         left: 0;
         background-image: linear-gradient(to bottom, #FFFFFF 51%, #DEDEDE 80%);
 
@@ -544,6 +645,7 @@
     .menu.active {
         display: block;
     }
+
     .menu ul {
         display: flex;
         flex-direction: column;
@@ -552,46 +654,53 @@
         row-gap: 1rem;
         padding-bottom: 1rem;
     }
+
     .menu li {
         border-bottom: 1px solid var(--azul-princial);
         width: 40vw;
         text-align: center;
         padding-bottom: 0.5rem;
     }
-    
+
     .menu a {
         color: var(--azul-princial);
     }
-    ul{
+
+    ul {
         list-style: none;
-        
+
     }
+
     /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
     .container_carrossel_mobile {
         width: 100vw;
         display: flex;
         flex-direction: column;
         padding-top: 3rem;
-        
+
     }
+
     .carrossel_texto {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     .kza_title {
         color: var(--azul-princial);
         font-weight: 700;
         font-size: 36px;
         width: 80vw;
-        
-        
+
+
     }
+
     .kza_title strong {
         color: var(--cinza-principal);
-        
+
     }
+
     .kza_subtitle {
         font-size: 26px;
         font-weight: 300;
@@ -612,23 +721,31 @@
         text-transform: uppercase;
         justify-content: center;
     }
+
     .barra-lateral-esquerda {
-        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
-        height: 172px; /* Ajuste a altura conforme necessário */
-        width: 20px; /* Ajuste a largura conforme necessário */
+        background-color: var(--azul-princial);
+        /* Substitua pela sua cor azul */
+        height: 172px;
+        /* Ajuste a altura conforme necessário */
+        width: 20px;
+        /* Ajuste a largura conforme necessário */
         position: absolute;
         left: 0;
         top: 74px;
         z-index: -9999;
-    } 
+    }
+
     .barra-cinza {
-        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        background-color: var(--cinza-principal);
+        /* Substitua pela sua cor cinza */
         height: 60px;
         width: 10px;
         position: absolute;
         top: 246px;
-        z-index: -1; /* Posiciona atrás do conteúdo */
+        z-index: -1;
+        /* Posiciona atrás do conteúdo */
     }
+
     .swiper {
         margin-top: 2rem;
         width: 90vw;
@@ -643,25 +760,28 @@
         align-items: center;
 
     }
+
     .faixa_cinza {
         width: 18px;
         height: 158px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
         margin-left: 1.5rem;
     }
-    
+
     /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
     .container_servicos {
         display: flex;
         flex-direction: column;
         width: 100vw;
     }
+
     .container_servicos_tipos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
     }
+
     .tipos_lista {
         display: flex;
         flex-direction: column;
@@ -674,22 +794,26 @@
         align-items: center;
         padding-top: 2.5rem;
         row-gap: 0.5rem;
-        
+
     }
+
     .servicos_imagem {
         width: 90vw;
         margin-top: -20px;
         z-index: -999;
     }
+
     .servicos_exemplos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         row-gap: 1rem;
     }
+
     .servicos_exemplos img {
         max-width: 100vw;
     }
+
     .exemplo_barra {
         width: 10px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
@@ -699,6 +823,7 @@
         margin-left: 2rem;
         z-index: 9999;
     }
+
     .servicos_vantagens {
         background-color: var(--azul-princial);
         display: flex;
@@ -711,6 +836,7 @@
 
 
     }
+
     .vantagem_1 {
         display: flex;
         color: var(--branco-fundo);
@@ -721,6 +847,7 @@
         font-weight: 500;
         justify-content: center;
     }
+
     .servicos_vantagens img {
         width: 26px;
     }
@@ -732,18 +859,21 @@
         flex-direction: column;
         width: 100vw;
     }
+
     .empresa_diferencial {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .diferencial_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
     }
+
     .diferencial_title {
         font-size: 36px;
         font-weight: 500;
@@ -753,17 +883,21 @@
         margin-top: 3rem;
         padding-bottom: 1rem;
     }
+
     .diferencial_title strong {
         color: var(--cinza-principal);
     }
+
     .diferencial_txt {
         font-size: 26px;
         color: var(--cinza-principal);
-        
+
     }
+
     .empresa_diferencial img {
         width: 90vw;
     }
+
     .barra_instagram {
         background-color: var(--azul-princial);
         display: flex;
@@ -773,12 +907,14 @@
         column-gap: 2rem;
         cursor: grab;
     }
+
     .barra_instagram p {
         font-size: 21px;
         font-weight: 400;
         color: var(--branco-fundo);
 
     }
+
     .barra_instagram img {
         width: 50px;
     }
@@ -791,19 +927,22 @@
         width: 100vw;
         align-items: center;
     }
+
     .orcamento_fotos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         row-gap: 1.5rem;
         padding-top: 1.5rem;
 
     }
+
     .orcamento_fotos img {
         width: 90vw;
     }
+
     .box_btnorcamento {
         background-color: var(--azul-princial);
         width: 70vw;
@@ -815,10 +954,12 @@
         column-gap: 1rem;
         margin-top: 2rem;
     }
+
     .orc_icon {
         width: 30px;
     }
-    .orc_txt{
+
+    .orc_txt {
         font-size: 28px;
         color: var(--branco-fundo);
     }
@@ -832,16 +973,19 @@
         justify-content: center;
         margin-top: 5rem;
     }
+
     .transforme_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .transforme_txt img {
         width: 70vw;
         padding-bottom: 2rem;
     }
+
     .transforme_title {
         font-size: 36px;
         font-family: var(--fonte-princiapl);
@@ -851,10 +995,12 @@
         padding-bottom: 2rem;
 
     }
+
     .transforme_title strong {
         color: var(--cinza-principal);
         font-weight: bold;
     }
+
     .transforme_fotos {
         display: flex;
         flex-direction: column;
@@ -862,9 +1008,11 @@
         align-items: center;
         row-gap: 1.5rem;
     }
+
     .transforme_fotos img {
         width: 80vw;
     }
+
     /* =============================== FOOTER ========================= */
     .container_footer {
         display: flex;
@@ -873,6 +1021,7 @@
         align-items: center;
         padding-top: 2rem;
     }
+
     .footer_txt {
         display: flex;
         flex-wrap: wrap;
@@ -880,6 +1029,7 @@
         justify-content: space-evenly;
         row-gap: 1rem;
     }
+
     .zap_footer {
         display: flex;
         flex-direction: column;
@@ -890,9 +1040,11 @@
         color: var(--azul-princial);
         font-size: 18px;
     }
+
     .zap_footer img {
         width: 25px;
     }
+
     .footer_endereco {
         font-size: 18px;
         color: var(--cinza-principal);
@@ -900,6 +1052,7 @@
         width: 60vw;
         padding-bottom: 2rem;
     }
+
     .footer_mapa {
         display: flex;
         width: 100vw;
@@ -908,10 +1061,12 @@
         margin-bottom: 2rem;
 
     }
+
     .iframe {
         width: 60vw;
-        
+
     }
+
     .copyright {
         background-color: var(--azul-princial);
         height: 52px;
@@ -920,6 +1075,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .zap_gaia {
         color: var(--branco-fundo);
         font-size: 12px;
@@ -929,8 +1085,55 @@
     .header_wide {
         display: none;
     }
+
     .menu_wide {
         display: none;
+    }
+
+
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+    /* ? ==========                    PÁGINA DE VIDROS                              ========= */
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+
+    .vidros_container_aprensentacao {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .vidro_apresentacao_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .vidro_apresentacao_title p {
+        font-size: 24px;
+        color: var(--azul-princial);
+        text-align: center;
+        width: 80vw;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 1.2;
+    }
+    .vidro_apresentacao_title strong {
+        color: var(--cinza-principal);
+        font-weight: 400;
+    }
+    .apresentacao_fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .apresentacao_fotos img {
+        width: 100vw;
     }
 }
 
@@ -941,10 +1144,11 @@
     body {
         font-family: var(--fonte-princiapl);
     }
+
     a:any-link {
         text-decoration: none;
     }
-    
+
     .header_mobile {
         display: flex;
         justify-content: space-between;
@@ -969,7 +1173,7 @@
         background: var(--azul-princial);
         margin: 4px 0;
         transition: all 0.3s ease;
-        
+
     }
 
     /* Estilos para quando o menu estiver aberto */
@@ -986,12 +1190,12 @@
     }
 
     /* Estilos para o menu */
-    
+
     .menu {
         display: none;
         position: fixed;
         top: 74px;
-        
+
         left: 0;
         background-image: linear-gradient(to bottom, #FFFFFF 51%, #DEDEDE 80%);
 
@@ -1002,6 +1206,7 @@
     .menu.active {
         display: block;
     }
+
     .menu ul {
         display: flex;
         flex-direction: column;
@@ -1010,46 +1215,53 @@
         row-gap: 1rem;
         padding-bottom: 1rem;
     }
+
     .menu li {
         border-bottom: 1px solid var(--azul-princial);
         width: 40vw;
         text-align: center;
         padding-bottom: 0.5rem;
     }
-    
+
     .menu a {
         color: var(--azul-princial);
     }
-    ul{
+
+    ul {
         list-style: none;
-        
+
     }
+
     /* ============================= CONTAINER CARROSSEL - INCLUI O TEXTO ===================== */
     .container_carrossel_mobile {
         width: 100vw;
         display: flex;
         flex-direction: column;
         padding-top: 3rem;
-        
+
     }
+
     .carrossel_texto {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     .kza_title {
         color: var(--azul-princial);
         font-weight: 700;
         font-size: 36px;
         width: 50vw;
-        
-        
+
+
     }
+
     .kza_title strong {
         color: var(--cinza-principal);
-        
+
     }
+
     .kza_subtitle {
         font-size: 26px;
         font-weight: 300;
@@ -1070,22 +1282,29 @@
         text-transform: uppercase;
         justify-content: center;
     }
+
     .barra-lateral-esquerda {
-        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
-        height: 172px; /* Ajuste a altura conforme necessário */
-        width: 20px; /* Ajuste a largura conforme necessário */
+        background-color: var(--azul-princial);
+        /* Substitua pela sua cor azul */
+        height: 172px;
+        /* Ajuste a altura conforme necessário */
+        width: 20px;
+        /* Ajuste a largura conforme necessário */
         position: absolute;
         left: 0;
         top: 74px;
         z-index: -9999;
-    } 
+    }
+
     .barra-cinza {
-        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        background-color: var(--cinza-principal);
+        /* Substitua pela sua cor cinza */
         height: 60px;
         width: 10px;
         position: absolute;
         top: 246px;
-        z-index: -1; /* Posiciona atrás do conteúdo */
+        z-index: -1;
+        /* Posiciona atrás do conteúdo */
     }
 
 
@@ -1093,6 +1312,7 @@
         margin-top: 3rem;
         width: 80vw;
     }
+
     .divisoria_azul {
         width: 100vw;
         height: 96px;
@@ -1102,24 +1322,28 @@
         align-items: center;
 
     }
+
     .faixa_cinza {
         width: 18px;
         height: 138px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
         margin-left: 4rem;
     }
+
     /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
     .container_servicos {
         display: flex;
         flex-direction: column;
         width: 100vw;
     }
+
     .container_servicos_tipos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
     }
+
     .tipos_lista {
         display: flex;
         flex-direction: column;
@@ -1132,22 +1356,26 @@
         align-items: center;
         padding-top: 2.5rem;
         row-gap: 0.5rem;
-        
+
     }
+
     .servicos_imagem {
         width: 90vw;
         margin-top: -20px;
         z-index: -999;
     }
+
     .servicos_exemplos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         row-gap: 1rem;
     }
+
     .servicos_exemplos img {
         max-width: 100vw;
     }
+
     .exemplo_barra {
         width: 10px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
@@ -1157,6 +1385,7 @@
         margin-left: 2rem;
         z-index: 9999;
     }
+
     .servicos_vantagens {
         background-color: var(--azul-princial);
         display: flex;
@@ -1169,6 +1398,7 @@
 
 
     }
+
     .vantagem_1 {
         display: flex;
         color: var(--branco-fundo);
@@ -1179,9 +1409,11 @@
         font-weight: 500;
         justify-content: center;
     }
+
     .servicos_vantagens img {
         width: 26px;
     }
+
     /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
 
     .container_empresa {
@@ -1189,18 +1421,21 @@
         flex-direction: column;
         width: 100vw;
     }
+
     .empresa_diferencial {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .diferencial_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
     }
+
     .diferencial_title {
         font-size: 36px;
         font-weight: 500;
@@ -1210,17 +1445,21 @@
         margin-top: 3rem;
         padding-bottom: 1rem;
     }
+
     .diferencial_title strong {
         color: var(--cinza-principal);
     }
+
     .diferencial_txt {
         font-size: 26px;
         color: var(--cinza-principal);
-        
+
     }
+
     .empresa_diferencial img {
         width: 90vw;
     }
+
     .barra_instagram {
         background-color: var(--azul-princial);
         display: flex;
@@ -1230,15 +1469,18 @@
         column-gap: 2rem;
         cursor: grab;
     }
+
     .barra_instagram p {
         font-size: 21px;
         font-weight: 400;
         color: var(--branco-fundo);
 
     }
+
     .barra_instagram img {
         width: 50px;
     }
+
     /* ============================= ORÇAMENTO E FOTOS ====================== */
 
     .container_orcamento {
@@ -1247,19 +1489,22 @@
         width: 100vw;
         align-items: center;
     }
+
     .orcamento_fotos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         row-gap: 2.5rem;
         padding-top: 2.5rem;
 
     }
+
     .orcamento_fotos img {
         width: 80vw;
     }
+
     .box_btnorcamento {
         background-color: var(--azul-princial);
         width: 60vw;
@@ -1271,10 +1516,12 @@
         column-gap: 1rem;
         margin-top: 2rem;
     }
+
     .orc_icon {
         width: 36px;
     }
-    .orc_txt{
+
+    .orc_txt {
         font-size: 30px;
         color: var(--branco-fundo);
     }
@@ -1288,16 +1535,19 @@
         justify-content: center;
         margin-top: 5rem;
     }
+
     .transforme_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .transforme_txt img {
         width: 40vw;
         padding-bottom: 2rem;
     }
+
     .transforme_title {
         font-size: 36px;
         font-family: var(--fonte-princiapl);
@@ -1307,10 +1557,12 @@
         padding-bottom: 2rem;
 
     }
+
     .transforme_title strong {
         color: var(--cinza-principal);
         font-weight: bold;
     }
+
     .transforme_fotos {
         display: flex;
         flex-direction: column;
@@ -1318,9 +1570,11 @@
         align-items: center;
         row-gap: 1.5rem;
     }
+
     .transforme_fotos img {
         width: 80vw;
     }
+
     /* =============================== FOOTER ========================= */
     .container_footer {
         display: flex;
@@ -1329,6 +1583,7 @@
         align-items: center;
         padding-top: 2rem;
     }
+
     .footer_txt {
         display: flex;
         flex-wrap: wrap;
@@ -1336,6 +1591,7 @@
         justify-content: space-evenly;
         row-gap: 1rem;
     }
+
     .zap_footer {
         display: flex;
         flex-direction: column;
@@ -1346,9 +1602,11 @@
         color: var(--azul-princial);
         font-size: 18px;
     }
+
     .zap_footer img {
         width: 25px;
     }
+
     .footer_endereco {
         font-size: 18px;
         color: var(--cinza-principal);
@@ -1357,6 +1615,7 @@
         padding-bottom: 2rem;
         padding-top: 1rem;
     }
+
     .footer_mapa {
         display: flex;
         width: 100vw;
@@ -1365,10 +1624,12 @@
         margin-bottom: 2rem;
 
     }
+
     .footer_mapa iframe {
         width: 60vw;
-        
+
     }
+
     .copyright {
         background-color: var(--azul-princial);
         height: 52px;
@@ -1377,16 +1638,64 @@
         align-items: center;
         justify-content: center;
     }
+
     .zap_gaia {
         color: var(--branco-fundo);
         font-size: 12px;
     }
+
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
     }
+
     .menu_wide {
         display: none;
+    }
+
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+    /* ? ==========                    PÁGINA DE VIDROS                              ========= */
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+
+    .vidros_container_aprensentacao {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .vidro_apresentacao_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .vidro_apresentacao_title p {
+        font-size: 30px;
+        color: var(--azul-princial);
+        text-align: center;
+        width: 60vw;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        line-height: 1.2;
+    }
+    .vidro_apresentacao_title strong {
+        color: var(--cinza-principal);
+        font-weight: 400;
+    }
+    .apresentacao_fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    .apresentacao_fotos img {
+        width: 100vw;
     }
 }
 
@@ -1397,10 +1706,11 @@
         font-family: var(--fonte-princiapl);
         overflow-x: hidden;
     }
+
     a:any-link {
         text-decoration: none;
     }
-    
+
     .header_mobile {
         display: flex;
         justify-content: space-between;
@@ -1425,7 +1735,7 @@
         background: var(--azul-princial);
         margin: 4px 0;
         transition: all 0.3s ease;
-        
+
     }
 
     /* Estilos para quando o menu estiver aberto */
@@ -1446,11 +1756,11 @@
         display: none;
         position: relative;
         top: 74px;
-        
+
         left: 0;
         background: var(--cinza-principal);
         width: 100vw;
-        
+
     }
 
     .menu.active {
@@ -1460,9 +1770,10 @@
     .menu a {
         color: var(--azul-princial);
     }
-    ul{
+
+    ul {
         list-style: none;
-        
+
     }
 
 
@@ -1472,26 +1783,30 @@
         display: flex;
         flex-direction: column;
         padding-top: 3rem;
-        
+
     }
+
     .carrossel_texto {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     .kza_title {
         color: var(--azul-princial);
         font-weight: 700;
         font-size: 42px;
         width: 50vw;
-        
-        
+
+
     }
+
     .kza_title strong {
         color: var(--cinza-principal);
-        
+
     }
+
     .kza_subtitle {
         font-size: 32px;
         font-weight: 300;
@@ -1512,22 +1827,29 @@
         text-transform: uppercase;
         justify-content: center;
     }
+
     .barra-lateral-esquerda {
-        background-color: var(--azul-princial); /* Substitua pela sua cor azul */
-        height: 172px; /* Ajuste a altura conforme necessário */
-        width: 20px; /* Ajuste a largura conforme necessário */
+        background-color: var(--azul-princial);
+        /* Substitua pela sua cor azul */
+        height: 172px;
+        /* Ajuste a altura conforme necessário */
+        width: 20px;
+        /* Ajuste a largura conforme necessário */
         position: absolute;
         left: 0;
         top: 74px;
         z-index: -9999;
-    } 
+    }
+
     .barra-cinza {
-        background-color: var(--cinza-principal); /* Substitua pela sua cor cinza */
+        background-color: var(--cinza-principal);
+        /* Substitua pela sua cor cinza */
         height: 60px;
         width: 10px;
         position: absolute;
         top: 246px;
-        z-index: -1; /* Posiciona atrás do conteúdo */
+        z-index: -1;
+        /* Posiciona atrás do conteúdo */
     }
 
 
@@ -1545,24 +1867,28 @@
         align-items: center;
 
     }
+
     .faixa_cinza {
         width: 18px;
         height: 168px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
         margin-left: 3rem;
     }
+
     /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
     .container_servicos {
         display: flex;
         flex-direction: column;
         width: 100vw;
     }
+
     .container_servicos_tipos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
     }
+
     .tipos_lista {
         display: flex;
         flex-direction: column;
@@ -1575,22 +1901,26 @@
         align-items: center;
         padding-top: 2.5rem;
         row-gap: 1.5rem;
-        
+
     }
+
     .servicos_imagem {
         width: 90vw;
         margin-top: -50px;
         z-index: -999;
     }
+
     .servicos_exemplos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         row-gap: 1rem;
     }
+
     .servicos_exemplos img {
         max-width: 100vw;
     }
+
     .exemplo_barra {
         width: 10px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
@@ -1600,6 +1930,7 @@
         margin-left: 2rem;
         z-index: 9999;
     }
+
     .servicos_vantagens {
         background-color: var(--azul-princial);
         display: flex;
@@ -1612,6 +1943,7 @@
 
 
     }
+
     .vantagem_1 {
         display: flex;
         color: var(--branco-fundo);
@@ -1622,9 +1954,11 @@
         font-weight: 500;
         justify-content: center;
     }
+
     .servicos_vantagens img {
         width: 35px;
     }
+
     /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
 
     .container_empresa {
@@ -1632,18 +1966,21 @@
         flex-direction: column;
         width: 100vw;
     }
+
     .empresa_diferencial {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .diferencial_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1rem;
     }
+
     .diferencial_title {
         font-size: 38px;
         font-weight: 500;
@@ -1653,17 +1990,21 @@
         margin-top: 3rem;
         padding-bottom: 1rem;
     }
+
     .diferencial_title strong {
         color: var(--cinza-principal);
     }
+
     .diferencial_txt {
         font-size: 28px;
         color: var(--cinza-principal);
-        
+
     }
+
     .empresa_diferencial img {
         width: 90vw;
     }
+
     .barra_instagram {
         background-color: var(--azul-princial);
         display: flex;
@@ -1673,15 +2014,18 @@
         column-gap: 2rem;
         cursor: grab;
     }
+
     .barra_instagram p {
         font-size: 28px;
         font-weight: 400;
         color: var(--branco-fundo);
 
     }
+
     .barra_instagram img {
         width: 60px;
     }
+
     /* ============================= ORÇAMENTO E FOTOS ====================== */
 
     .container_orcamento {
@@ -1690,19 +2034,22 @@
         width: 100vw;
         align-items: center;
     }
+
     .orcamento_fotos {
         display: flex;
         flex-direction: column;
         width: 100vw;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         row-gap: 2.5rem;
         padding-top: 2.5rem;
 
     }
+
     .orcamento_fotos img {
         width: 70vw;
     }
+
     .box_btnorcamento {
         background-color: var(--azul-princial);
         width: 60vw;
@@ -1714,13 +2061,16 @@
         column-gap: 1rem;
         margin-top: 2rem;
     }
+
     .orc_icon {
         width: 40px;
     }
-    .orc_txt{
+
+    .orc_txt {
         font-size: 32px;
         color: var(--branco-fundo);
     }
+
     /* ============================ CONTAINER TRANSFORME SUA KZA */
 
     .container_transforme {
@@ -1730,16 +2080,19 @@
         justify-content: center;
         margin-top: 5rem;
     }
+
     .transforme_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .transforme_txt img {
         width: 30vw;
         padding-bottom: 2rem;
     }
+
     .transforme_title {
         font-size: 36px;
         font-family: var(--fonte-princiapl);
@@ -1749,20 +2102,24 @@
         padding-bottom: 2rem;
 
     }
+
     .transforme_title strong {
         color: var(--cinza-principal);
         font-weight: bold;
     }
+
     .transforme_fotos {
         display: flex;
         justify-content: space-between;
         width: 100vw;
         align-items: center;
-        
+
     }
+
     .transforme_fotos img {
         width: 45vw;
     }
+
     /* =============================== FOOTER ========================= */
     .container_footer {
         display: flex;
@@ -1771,6 +2128,7 @@
         align-items: center;
         padding-top: 2rem;
     }
+
     .footer_txt {
         display: flex;
         flex-wrap: wrap;
@@ -1778,6 +2136,7 @@
         justify-content: space-evenly;
         row-gap: 1rem;
     }
+
     .zap_footer {
         display: flex;
         flex-direction: column;
@@ -1788,9 +2147,11 @@
         color: var(--azul-princial);
         font-size: 24px;
     }
+
     .zap_footer img {
         width: 35px;
     }
+
     .footer_endereco {
         font-size: 20px;
         color: var(--cinza-principal);
@@ -1799,6 +2160,7 @@
         padding-bottom: 2rem;
         padding-top: 1rem;
     }
+
     .footer_mapa {
         display: flex;
         width: 100vw;
@@ -1807,10 +2169,12 @@
         margin-bottom: 2rem;
 
     }
+
     .footer_mapa iframe {
         width: 60vw;
-        
+
     }
+
     .copyright {
         background-color: var(--azul-princial);
         height: 52px;
@@ -1819,16 +2183,64 @@
         align-items: center;
         justify-content: center;
     }
+
     .zap_gaia {
         color: var(--branco-fundo);
         font-size: 14px;
     }
+
     /* =============================   ITENS OCULTOS ========================= */
     .header_wide {
         display: none;
     }
+
     .menu_wide {
         display: none;
+    }
+
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+    /* ? ==========                    PÁGINA DE VIDROS                              ========= */
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+
+    .vidros_container_aprensentacao {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .vidro_apresentacao_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .vidro_apresentacao_title p {
+        font-size: 28px;
+        color: var(--azul-princial);
+        text-align: center;
+        width: 50vw;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 1.2;
+    }
+    .vidro_apresentacao_title strong {
+        color: var(--cinza-principal);
+        font-weight: 400;
+    }
+    .apresentacao_fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4rem;
+    }
+    .apresentacao_fotos img {
+        width: 100vw;
     }
 }
 
@@ -1836,14 +2248,16 @@
 /* TODO ======== DESKTOP / MIN 1201PX  ============================ */
 /* TODO ================================================================= */
 @media screen and (min-width: 1201px) {
-    
-    body{
+
+    body {
         font-family: var(--fonte-princiapl);
         overflow-x: hidden;
     }
-    a:any-link{
+
+    a:any-link {
         text-decoration: none;
     }
+
     .header_wide {
         display: flex;
         width: 100vw;
@@ -1851,10 +2265,11 @@
         align-items: center;
         font-size: 16px;
         background-color: #cccccc;
-        
-        
+
+
 
     }
+
     .header_contato {
         display: flex;
         align-items: center;
@@ -1863,22 +2278,26 @@
         max-width: 100vw;
         column-gap: 0.5rem;
     }
+
     .header_contato_contato {
         color: var(--azul-princial);
         font-weight: 600;
         font-size: 16px;
     }
-    .header_contato a{
+
+    .header_contato a {
         display: flex;
         align-items: center;
         column-gap: 0.5rem;
         color: var(--azul-princial);
-        
+
     }
+
     .link_zap_1 {
         border-right: 1px solid var(--azul-princial);
         padding-right: 1rem;
     }
+
     .link_insta {
         padding-left: 2rem;
     }
@@ -1888,6 +2307,7 @@
         width: 100vw;
         margin-left: 2rem;
     }
+
     .boxmenu {
         display: flex;
         width: 100vw;
@@ -1895,11 +2315,13 @@
         justify-content: flex-start;
         column-gap: 5rem;
     }
-    .boxmenu a{
+
+    .boxmenu a {
         font-size: 24px;
         color: var(--cinza-principal);
         font-weight: 400;
     }
+
     .container_carrossel_mobile {
         display: flex;
         flex-direction: row-reverse;
@@ -1907,10 +2329,12 @@
         margin-top: 2rem;
         column-gap: 3rem;
     }
+
     .swiper {
         width: 55vw;
-        
+
     }
+
     .carrossel_texto {
         display: flex;
         flex-direction: column;
@@ -1920,6 +2344,7 @@
         width: 45vw;
         row-gap: 1.5rem;
     }
+
     .kza_title {
         color: var(--azul-princial);
         font-weight: 700;
@@ -1927,13 +2352,15 @@
         width: 40vw;
         text-align: left;
         padding-right: 2rem;
-        
-        
+
+
     }
+
     .kza_title strong {
         color: var(--cinza-principal);
-        
+
     }
+
     .kza_subtitle {
         font-size: 26px;
         font-weight: 300;
@@ -1957,6 +2384,7 @@
         justify-content: center;
         width: 20vw;
     }
+
     .divisoria_azul {
         width: 100vw;
         height: 96px;
@@ -1966,24 +2394,27 @@
         align-items: center;
 
     }
+
     .faixa_cinza {
         width: 18px;
         height: 178px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
         margin-left: 3rem;
     }
-    
+
     /* =============================CONTAINER SERVIÇOS TIPOS ========================= */
     .container_servicos {
         display: flex;
         flex-direction: column;
         width: 100vw;
     }
+
     .container_servicos_tipos {
         display: flex;
         width: 100vw;
         align-items: center;
     }
+
     .tipos_lista {
         display: flex;
         flex-direction: column;
@@ -1997,15 +2428,17 @@
         padding-top: 2.5rem;
         margin-left: 3rem;
         row-gap: 0.5rem;
-        
-        
-        
+
+
+
     }
+
     .servicos_imagem {
         width: 60vw;
-        
-        
+
+
     }
+
     .servicos_exemplos {
         display: flex;
         justify-content: center;
@@ -2013,20 +2446,23 @@
         width: 100vw;
         row-gap: 1rem;
     }
+
     .servicos_exemplos img {
         width: 50vw;
-        
+
     }
+
     .exemplo_barra {
         width: 30px;
         background-image: linear-gradient(to right, #B9A163, #906D33);
         height: 100px;
         margin-left: -10px;
         margin-right: -10px;
-        
-        
+
+
         z-index: 9999;
     }
+
     .servicos_vantagens {
         background-color: var(--azul-princial);
         display: flex;
@@ -2039,6 +2475,7 @@
 
 
     }
+
     .vantagem_1 {
         display: flex;
         flex-direction: column;
@@ -2052,9 +2489,11 @@
         width: 22vw;
         text-align: center;
     }
+
     .servicos_vantagens img {
         width: 100px;
     }
+
     /* ==========================CONTAINER EMPRESA DIFERENCIAL    */
 
     .container_empresa {
@@ -2062,12 +2501,14 @@
         flex-direction: column;
         width: 100vw;
     }
+
     .empresa_diferencial {
         display: flex;
         width: 100vw;
         align-items: center;
         justify-content: center;
     }
+
     .diferencial_txt {
         display: flex;
         flex-direction: column;
@@ -2075,9 +2516,10 @@
         row-gap: 1rem;
         width: 50vw;
         padding-left: 6rem;
-        
-        
+
+
     }
+
     .diferencial_title {
         font-size: 46px;
         font-weight: 500;
@@ -2087,17 +2529,21 @@
         margin-top: 3rem;
         padding-bottom: 1rem;
     }
+
     .diferencial_title strong {
         color: var(--cinza-principal);
     }
+
     .diferencial_txt {
         font-size: 32px;
         color: var(--cinza-principal);
         margin-bottom: 10rem;
     }
+
     .empresa_diferencial img {
         width: 50vw;
     }
+
     .barra_instagram {
         background-color: var(--azul-princial);
         display: flex;
@@ -2107,12 +2553,14 @@
         column-gap: 2rem;
         cursor: grab;
     }
+
     .barra_instagram p {
         font-size: 32px;
         font-weight: 400;
         color: var(--branco-fundo);
 
     }
+
     .barra_instagram img {
         width: 100px;
     }
@@ -2125,20 +2573,23 @@
         width: 100vw;
         align-items: center;
     }
+
     .orcamento_fotos {
         display: flex;
         flex-wrap: wrap;
         width: 100vw;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         row-gap: 2.5rem;
         padding-top: 2.5rem;
         column-gap: 2.5rem;
     }
+
     .orcamento_fotos img {
         width: 40vw;
-        
+
     }
+
     .box_btnorcamento {
         background-color: var(--azul-princial);
         width: 60vw;
@@ -2150,13 +2601,16 @@
         column-gap: 1rem;
         margin-top: 2rem;
     }
+
     .orc_icon {
         width: 36px;
     }
-    .orc_txt{
+
+    .orc_txt {
         font-size: 30px;
         color: var(--branco-fundo);
     }
+
     /* ============================ CONTAINER TRANSFORME SUA KZA */
 
     .container_transforme {
@@ -2166,16 +2620,19 @@
         justify-content: center;
         margin-top: 5rem;
     }
+
     .transforme_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .transforme_txt img {
         width: 30vw;
         padding-bottom: 2rem;
     }
+
     .transforme_title {
         font-size: 36px;
         font-family: var(--fonte-princiapl);
@@ -2185,72 +2642,83 @@
         padding-bottom: 2rem;
 
     }
+
     .transforme_title strong {
         color: var(--cinza-principal);
         font-weight: bold;
     }
+
     .transforme_fotos {
         display: flex;
         justify-content: space-between;
         width: 100vw;
         align-items: center;
-        
+
     }
+
     .transforme_fotos img {
         width: 45vw;
     }
+
     /* =============================== FOOTER ========================= */
     .container_footer {
         display: flex;
-        
+
         width: 100vw;
         align-items: center;
         padding-top: 4rem;
         justify-content: space-around;
         padding-bottom: 2rem;
     }
+
     .footer_txt {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 3rem;
         row-gap: 1rem;
-        
-        
+
+
     }
+
     .zap_footer {
         display: flex;
-        
+
         align-items: center;
         width: 40vw;
-        
-        column-gap:  1rem;
+
+        column-gap: 1rem;
         color: var(--azul-princial);
         font-size: 24px;
     }
+
     .zap_footer img {
         width: 40px;
     }
+
     .footer_endereco {
         font-size: 22px;
         color: var(--cinza-principal);
         text-align: left;
-        
+
         padding-bottom: 2rem;
     }
+
     .footer_mapa {
         display: flex;
         width: 100vw;
         align-items: center;
         justify-content: center;
-        
+
 
     }
+
     .footer_mapa iframe {
         width: 50vw;
         height: 300px;
-        
+
     }
+
     .copyright {
         background-color: var(--azul-princial);
         height: 52px;
@@ -2259,12 +2727,65 @@
         align-items: center;
         justify-content: center;
     }
+
     .zap_gaia {
         color: var(--branco-fundo);
         font-size: 16px;
     }
+
     /* =============================   ITENS OCULTOS ========================= */
     .header_mobile {
         display: none;
+    }
+
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+    /* ? ==========                    PÁGINA DE VIDROS                              ========= */
+    /* ? ===================================================================================== */
+    /* ? ===================================================================================== */
+
+    .vidros_container_aprensentacao {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+    }
+    .vidro_apresentacao_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .vidro_apresentacao_title p {
+        font-size: 48px;
+        color: var(--azul-princial);
+        text-align: center;
+        width: 60vw;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        line-height: 1.2;
+    }
+    .vidro_apresentacao_title strong {
+        color: var(--cinza-principal);
+        font-weight: 400;
+    }
+    .apresentacao_fotos {
+        display: flex;
+        background-color: var(--azul-princial);
+        align-items: center;
+        row-gap: 1rem;
+        width: 100vw;
+        justify-content: space-evenly;
+        height: 300px;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    .apresentacao_fotos img {
+        width: 40vw;
+        border: 10px solid var(--cinza-principal);
     }
 }
