@@ -574,6 +574,45 @@
         width: 100vw;
     }
 
+    /* CARROSSEL VIDROS - GUARDA CORPOS E MUROS DE VIDRO */
+    .vidros_guardacorpo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .vidros_guardacorpo_title {
+        color: var(--azul-princial);
+        font-size: 28px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;                            
+    }
+    .vidros_guardacorpo_txt {
+        background-color: var(--azul-princial);                                                                                                                                                                                                                             
+        width: 100vw;
+        height: 90px;
+        font-size: 20px;
+        color: var(--branco-fundo);
+        text-align: center;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    .vidros_guardacorpo_txt p {
+        padding: 0 2rem;
+    }
+    
+    
+    
+    
+    
+    
 }
 
 /* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */
