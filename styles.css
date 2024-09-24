@@ -600,7 +600,7 @@
         font-weight: 300;
         display: flex;
         align-items: center;
-        padding: 0.5rem 2rem;
+        padding: 1rem 2rem;
         margin-bottom: 3rem;
         
     }
@@ -1174,6 +1174,40 @@
     .apresentacao_fotos img {
         width: 100vw;
     }
+
+    /* CARROSSEL VIDROS - GUARDA CORPOS E MUROS DE VIDRO */
+    .vidros_guardacorpo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .vidros_guardacorpo_title {
+        color: var(--azul-princial);
+        font-size: 28px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;                            
+    }
+    .vidros_guardacorpo_txt {
+        background-color: var(--azul-princial);                                                                                                                                                                                                                             
+        width: 100vw;
+        height: 90px;
+        font-size: 20px;
+        color: var(--branco-fundo);
+        text-align: center;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    .vidros_guardacorpo_txt p {
+        padding: 0 2rem;
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
@@ -1713,14 +1747,14 @@
         width: 100vw;
     }
     .vidro_apresentacao_title p {
-        font-size: 30px;
+        font-size: 24px;
         color: var(--azul-princial);
         text-align: center;
-        width: 60vw;
+        width: 80vw;
         font-weight: 300;
         text-transform: uppercase;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         line-height: 1.2;
     }
     .vidro_apresentacao_title strong {
@@ -1731,10 +1765,44 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 2rem;
+        row-gap: 1rem;
     }
     .apresentacao_fotos img {
         width: 100vw;
+    }
+
+    /* CARROSSEL VIDROS - GUARDA CORPOS E MUROS DE VIDRO */
+    .vidros_guardacorpo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .vidros_guardacorpo_title {
+        color: var(--azul-princial);
+        font-size: 28px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;                            
+    }
+    .vidros_guardacorpo_txt {
+        background-color: var(--azul-princial);                                                                                                                                                                                                                             
+        width: 100vw;
+        height: 90px;
+        font-size: 20px;
+        color: var(--branco-fundo);
+        text-align: center;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    .vidros_guardacorpo_txt p {
+        padding: 0 2rem;
     }
 }
 
@@ -2258,10 +2326,10 @@
         width: 100vw;
     }
     .vidro_apresentacao_title p {
-        font-size: 28px;
+        font-size: 24px;
         color: var(--azul-princial);
         text-align: center;
-        width: 50vw;
+        width: 80vw;
         font-weight: 300;
         text-transform: uppercase;
         margin-top: 2rem;
@@ -2276,10 +2344,44 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 4rem;
+        row-gap: 1rem;
     }
     .apresentacao_fotos img {
         width: 100vw;
+    }
+
+    /* CARROSSEL VIDROS - GUARDA CORPOS E MUROS DE VIDRO */
+    .vidros_guardacorpo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .vidros_guardacorpo_title {
+        color: var(--azul-princial);
+        font-size: 28px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;                            
+    }
+    .vidros_guardacorpo_txt {
+        background-color: var(--azul-princial);                                                                                                                                                                                                                             
+        width: 100vw;
+        height: 90px;
+        font-size: 20px;
+        color: var(--branco-fundo);
+        text-align: center;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    .vidros_guardacorpo_txt p {
+        padding: 0 2rem;
     }
 }
 
@@ -2798,14 +2900,14 @@
         width: 100vw;
     }
     .vidro_apresentacao_title p {
-        font-size: 48px;
+        font-size: 24px;
         color: var(--azul-princial);
         text-align: center;
         width: 60vw;
         font-weight: 300;
         text-transform: uppercase;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         line-height: 1.2;
     }
     .vidro_apresentacao_title strong {
@@ -2814,17 +2916,47 @@
     }
     .apresentacao_fotos {
         display: flex;
-        background-color: var(--azul-princial);
+        justify-content: space-between;
+        column-gap: 2rem;
         align-items: center;
-        row-gap: 1rem;
-        width: 100vw;
-        justify-content: space-evenly;
-        height: 300px;
-        margin-top: 10rem;
-        margin-bottom: 5rem;
+        
     }
     .apresentacao_fotos img {
         width: 40vw;
-        border: 10px solid var(--cinza-principal);
+        
+    }
+
+    /* CARROSSEL VIDROS - GUARDA CORPOS E MUROS DE VIDRO */
+    .vidros_guardacorpo {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .vidros_guardacorpo_title {
+        color: var(--azul-princial);
+        font-size: 32px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;                            
+    }
+    .vidros_guardacorpo_txt {
+        background-color: var(--azul-princial);                                                                                                                                                                                                                             
+        width: 100vw;
+        height: 90px;
+        font-size: 22px;
+        color: var(--branco-fundo);
+        text-align: center;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    .vidros_guardacorpo_txt p {
+        padding: 1rem 10vw;
     }
 }
