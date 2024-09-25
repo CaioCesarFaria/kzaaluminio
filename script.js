@@ -45,3 +45,17 @@ const swiper2 = new Swiper('.swiper2', {
         delay: 3000, // 3000 milliseconds = 3 seconds
     },
 });
+
+
+window.addEventListener('scroll', function() {
+    const elements = document.querySelectorAll('.fade-left, .fade-right');
+    
+    elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        const isVisible = (rect.top <= window.innerHeight && rect.bottom >= 0);
+        
+        if (isVisible) {
+            element.classList.add('active');
+        }
+    });
+});
