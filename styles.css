@@ -682,6 +682,41 @@
     .quemsomostxt strong {
         font-weight: 700;
     }
+    .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 10vw;
+        background-color: #28a745; /* Cor de fundo */
+        color: white;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000; /* Mantém o botão sempre acima dos outros elementos */
+        font-family: var(--fonte-princiapl);
+    }
+      
+      .floating-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho quando o mouse passa sobre o botão */
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      .floating-button {
+        animation: pulse 2s infinite; /* Animação de aumentar e diminuir */
+      }
 
 
 
@@ -1355,6 +1390,41 @@
     .quemsomostxt strong {
         font-weight: 700;
     }
+    .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 10vw;
+        background-color: #28a745; /* Cor de fundo */
+        color: white;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000; /* Mantém o botão sempre acima dos outros elementos */
+        font-family: var(--fonte-princiapl);
+    }
+      
+      .floating-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho quando o mouse passa sobre o botão */
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      .floating-button {
+        animation: pulse 2s infinite; /* Animação de aumentar e diminuir */
+      }
 
 
 }
@@ -2036,6 +2106,41 @@
     .quemsomostxt strong {
         font-weight: 700;
     }
+    .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 10vw;
+        background-color: #28a745; /* Cor de fundo */
+        color: white;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000; /* Mantém o botão sempre acima dos outros elementos */
+        font-family: var(--fonte-princiapl);
+    }
+      
+      .floating-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho quando o mouse passa sobre o botão */
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      .floating-button {
+        animation: pulse 2s infinite; /* Animação de aumentar e diminuir */
+      }
 }
 
 /* TODO ======== NOTEBOOK / 1024 PX  ATÉ 1200PX ============================ */
@@ -2709,6 +2814,42 @@
     .quemsomostxt strong {
         font-weight: 700;
     }
+
+    .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 10vw;
+        background-color: #28a745; /* Cor de fundo */
+        color: white;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000; /* Mantém o botão sempre acima dos outros elementos */
+        font-family: var(--fonte-princiapl);
+    }
+      
+      .floating-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho quando o mouse passa sobre o botão */
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      .floating-button {
+        animation: pulse 2s infinite; /* Animação de aumentar e diminuir */
+      }
 }
 
 
@@ -3412,4 +3553,44 @@
     .quemsomostxt strong {
         font-weight: 700;
     }
+    
+
+
+
+    .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 10vw;
+        background-color: #28a745; /* Cor de fundo */
+        color: white;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000; /* Mantém o botão sempre acima dos outros elementos */
+        font-family: var(--fonte-princiapl);
+    }
+      
+      .floating-button:hover {
+        transform: scale(1.2); /* Aumenta o tamanho quando o mouse passa sobre o botão */
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      .floating-button {
+        animation: pulse 2s infinite; /* Animação de aumentar e diminuir */
+      }
+      
 }
